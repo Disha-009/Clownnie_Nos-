@@ -1,0 +1,26 @@
+h3 {
+  font-size: 25px !important;
+}
+
+.btn-success:hover{
+    background-color: darkorchid;
+}
+
+canvas{
+    animation-name: animie;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animie{
+    from{
+        box-shadow: 1px 1px 38px black;
+    }
+    to{
+        box-shadow: 1px 1px 38px rgb(240, 8, 143);
+    }
+}
+
+body{
+background-size: cover;
+}
